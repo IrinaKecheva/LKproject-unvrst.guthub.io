@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(https://images.wallpaperscraft.ru/image/single/pyatna_fon_linii_abstrakciya_66994_1920x1080.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.box {
+  /* коробочка */
+  width: 300px;
+  padding: 45px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  height: 86%;
+}
+
+.box:hover {
+  /* акнимация коробочки */
+  width: 300px;
+  padding: 45px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 1px 1px 15px 1px black;
+  transition: 0.5s;
+}
+
+.box h1 {
+  /* загодовок внутри */
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 30px;
+}
+
+.but {
+  /* окошки */
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(194, 23, 23);
+  padding: 15px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.but:focus {
+  /* дополнение к окошкам */
+  width: 270px;
+  border-color: red;
+}
+
+.button {
+  /* кнопка */
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(194, 23, 23);
+  padding: 15px 40px;
+  width: 200;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  /* кнопка продолжение */
+  background: rgb(194, 23, 23);
+}
+
+.text {
+  /* первый тектовый блок */
+  position: absolute;
+  top: 7%;
+  left: 40%;
+  right: 3%;
+  background: rgba(0, 0, 0, 0.603);
+  animation-name: text;
+  animation-duration: 1s;
+}
+
+.text h3 {
+  margin: 20px;
+}
+
+.text p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+.text2 {
+  /* второй тектовый блок */
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  right: 3%;
+  background: rgba(0, 0, 0, 0.603);
+  animation-name: text2;
+  animation-duration: 1.5s;
+}
+
+.text2 h3 {
+  margin: 20px;
+}
+
+.text2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+.text3 {
+  /* третий тектовый блок */
+  position: absolute;
+  top: 46%;
+  left: 40%;
+  right: 3%;
+  background: rgba(0, 0, 0, 0.603);
+  animation-name: text3;
+  animation-duration: 2s;
+}
+
+.text3 h3 {
+  margin: 20px;
+}
+
+.text3 p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+.text4 {
+  /* четвертый тектовый блок */
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  right: 3%;
+  background: rgba(0, 0, 0, 0.603);
+  animation-name: text4;
+  animation-duration: 2.5s;
+}
+
+.text4 h3 {
+  margin: 20px;
+}
+
+.text4 p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+@keyframes text {
+  /* появление 1 текста */
+  0% {
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    right: 3%;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    right: 3%;
+    background: rgba(0, 0, 0, 0.603);
+    color: white;
+  }
+}
+@keyframes text2 {
+  /* появление 2 текста */
+  0% {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    right: 3%;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    right: 3%;
+    background: rgba(0, 0, 0, 0.603);
+    color: white;
+  }
+}
+
+@keyframes text3 {
+  /* появление 3 текста */
+  0% {
+    position: absolute;
+    position: absolute;
+    top: 46%;
+    left: 40%;
+    right: 3%;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    position: absolute;
+    top: 46%;
+    left: 40%;
+    right: 3%;
+    background: rgba(0, 0, 0, 0.603);
+    color: white;
+  }
+}
+@keyframes text4 {
+  /* появление 4 текста */
+  0% {
+    position: absolute;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    right: 3%;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    right: 3%;
+    background: rgba(0, 0, 0, 0.603);
+    color: white;
+  }
+}
